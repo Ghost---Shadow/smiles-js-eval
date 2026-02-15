@@ -1,0 +1,22 @@
+{
+  "name": "smiles-js-eval",
+  "version": "0.1.0",
+  "description": "Evaluation suite: does representing molecules as composable code help LLMs reason about chemistry?",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "prep:ring-count": "bun run src/data-prep/fetch-chembl.js",
+    "prep:bbbp": "bun run src/data-prep/fetch-bbbp.js",
+    "prep:smiles-repair": "bun run src/data-prep/fetch-zinc.js",
+    "prep:all": "bun run prep:ring-count && bun run prep:bbbp && bun run prep:smiles-repair",
+    "eval": "bun run src/pipeline.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "smiles-js": "file:../smiles-js"
+  },
+  "devDependencies": {
+    "@rdkit/rdkit": "^2025.3.4-1.0.0"
+  }
+}

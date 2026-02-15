@@ -1,0 +1,80 @@
+{
+  "ring-count": {
+    "smiles": {
+      "accuracy": 0,
+      "total": 0,
+      "correct": 0,
+      "parseFailures": 100
+    },
+    "code": {
+      "accuracy": 0,
+      "total": 0,
+      "correct": 0,
+      "parseFailures": 100
+    },
+    "code+relabel": {
+      "accuracy": 0,
+      "total": 0,
+      "correct": 0,
+      "parseFailures": 100
+    }
+  },
+  "bbbp": {
+    "smiles": {
+      "accuracy": 0,
+      "balancedAccuracy": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 0,
+      "parseFailures": 100
+    },
+    "code": {
+      "accuracy": 0,
+      "balancedAccuracy": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 0,
+      "parseFailures": 100
+    },
+    "code+relabel": {
+      "accuracy": 0,
+      "balancedAccuracy": 0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "total": 0,
+      "parseFailures": 100
+    }
+  },
+  "smiles-repair": {
+    "smiles": {
+      "validityRate": null,
+      "exactMatchRate": null,
+      "valid": 0,
+      "exactMatch": 0,
+      "total": 0,
+      "parseFailures": 100
+    },
+    "code": {
+      "validityRate": null,
+      "exactMatchRate": null,
+      "valid": 0,
+      "exactMatch": 0,
+      "total": 0,
+      "parseFailures": 100
+    },
+    "code+relabel": {
+      "validityRate": null,
+      "exactMatchRate": null,
+      "valid": 0,
+      "exactMatch": 0,
+      "total": 0,
+      "parseFailures": 100
+    }
+  }
+}
