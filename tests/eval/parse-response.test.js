@@ -14,7 +14,15 @@ describe("parseInteger", () => {
     expect(parseInteger("```\n5\n```")).toBe(5);
   });
 
-  it("extracts integer from surrounding text", () => {
+  it("extracts last integer from CoT response", () => {
+    expect(
+      parseInteger(
+        "1. First ring is benzene\n2. Second ring is pyridine\n3. Third ring\n\nThe molecule has 3 rings.\n\n3",
+      ),
+    ).toBe(3);
+  });
+
+  it("extracts last integer from surrounding text", () => {
     expect(parseInteger("The molecule has 2 rings")).toBe(2);
   });
 
@@ -36,6 +44,14 @@ describe("parseYesNo", () => {
     expect(parseYesNo("```\nyes\n```")).toBe("yes");
   });
 
+  it("extracts final yes from CoT with both yes and no", () => {
+    expect(
+      parseYesNo(
+        "It does not have a large MW, which suggests no. But the logP is high.\n\nyes",
+      ),
+    ).toBe("yes");
+  });
+
   it("returns null for ambiguous", () => {
     expect(parseYesNo("maybe")).toBeNull();
   });
@@ -52,6 +68,14 @@ describe("parseSmiles", () => {
 
   it("extracts SMILES from multiline response", () => {
     expect(parseSmiles("The corrected SMILES is:\nCC(=O)O")).toBe("CC(=O)O");
+  });
+
+  it("extracts last backtick-wrapped SMILES from CoT", () => {
+    expect(
+      parseSmiles(
+        "The original was `c1ccccc` which is missing closure.\n\nThe corrected SMILES is:\n\n`c1ccccc1`",
+      ),
+    ).toBe("c1ccccc1");
   });
 
   it("returns null for long prose", () => {

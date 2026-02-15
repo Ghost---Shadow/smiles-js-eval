@@ -15,7 +15,7 @@ export async function callClaude(prompt) {
     try {
       const response = await client.messages.create({
         model: MODEL,
-        max_tokens: 256,
+        max_tokens: 1024,
         messages: [{ role: "user", content: prompt }],
       });
       return response.content[0].text;

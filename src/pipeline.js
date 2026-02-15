@@ -143,13 +143,19 @@ async function main() {
     conditions = [args[condIdx + 1]];
   }
 
+  let limit = Infinity;
+  const limitIdx = args.indexOf("--limit");
+  if (limitIdx !== -1 && args[limitIdx + 1]) {
+    limit = parseInt(args[limitIdx + 1], 10);
+  }
+
   mkdirSync("results", { recursive: true });
 
   const allResults = {};
 
   for (const task of tasks) {
     console.log(`\n=== Task: ${task} ===`);
-    const dataset = loadDataset(task);
+    const dataset = loadDataset(task).slice(0, limit);
     allResults[task] = {};
 
     for (const condition of conditions) {

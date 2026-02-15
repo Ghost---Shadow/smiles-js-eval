@@ -1,514 +1,514 @@
 {
   "scores": {
-    "accuracy": 0,
-    "balancedAccuracy": 0,
-    "tp": 0,
-    "fp": 0,
-    "tn": 0,
-    "fn": 0,
-    "total": 0,
-    "parseFailures": 100
+    "accuracy": 0.59,
+    "balancedAccuracy": 0.59,
+    "tp": 23,
+    "fp": 14,
+    "tn": 36,
+    "fn": 27,
+    "total": 100,
+    "parseFailures": 0
   },
   "results": [
     {
       "index": 0,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure:\n- It contains a tertiary amide group: CN(C)C(=O)-\n- A piperidine ring with a tertiary amine (protonatable)\n- A quaternary carbon center with two phenyl groups\n- A para-chlorophenyl group\n- An alcohol group on the piperidine ring\n\nThis appears to be loperamide or a closely related compound. Key properties:\n- High molecular weight (likely >450 Da)\n- Multiple aromatic rings\n- Contains a basic nitrogen (pKa ~8-9)\n- The molecule is quite lipophilic but also large\n\nLoperamide is known to be a P-glycoprotein substrate, which actively pumps it out of the CNS. While it has some lipophilicity that might allow passive diffusion, the combination of:\n1. High molecular weight\n2. P-gp efflux\n3. Multiple aromatic rings making it bulky\n\nmeans it has very limited blood-brain barrier penetration under normal circumstances.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 1,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "I need to analyze whether this molecule can penetrate the blood-brain barrier (BBB).\n\nLet me examine the structure based on the SMILES string:\n- CCC(NC(=O)c1c(c(nc2c1cccc2)c1ccccc1)C)c1ccccc1\n\nKey features to consider for BBB penetration:\n1. Molecular weight\n2. Lipophilicity (LogP)\n3. Hydrogen bond donors and acceptors\n4. Polar surface area (PSA)\n\nFrom the SMILES, this molecule contains:\n- A quinoline/naphthyridine core system (fused rings)\n- Multiple phenyl groups\n- An amide linkage (NC(=O))\n- Mostly aromatic and lipophilic character\n\nEstimating properties:\n- The molecule appears to have a relatively high molecular weight (likely >400 Da)\n- High lipophilicity due to multiple aromatic rings\n- Limited hydrogen bond donors (1 NH in amide)\n- Moderate hydrogen bond acceptors (C=O and N in rings)\n- Relatively low polar surface area\n\nWhile the molecule is lipophilic which favors BBB penetration, the molecular weight appears to be on the higher side. However, drugs with similar quinoline structures and aromatic character can penetrate the BBB.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 2,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThe SMILES string represents atropine (or a closely related tropane alkaloid). Let me consider the key factors for BBB penetration:\n\n1. Molecular weight: The structure shows a tropane ring system with a phenyl group and ester linkage - MW appears to be around 289 g/mol (within favorable range <400-500)\n\n2. Lipophilicity: Contains aromatic ring and aliphatic portions (moderate lipophilicity)\n\n3. Hydrogen bond donors/acceptors: Has OH group (1 HBD), ester oxygen and ether oxygen (3-4 HBA total)\n\n4. Polar surface area: Relatively low due to mostly carbon framework\n\n5. This is atropine or a similar compound, which is known to cross the BBB and cause central anticholinergic effects\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 3,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule appears to be a cyclic ester with:\n- A cyclohexyl group with a carboxylate ester\n- Another cyclohexyl substituent\n- A diethylaminoethyl side chain\n\nKey factors for BBB penetration:\n1. Molecular weight: This molecule has a relatively moderate MW (likely ~300-350 g/mol)\n2. Lipophilicity: Multiple cyclohexyl groups make it lipophilic\n3. Hydrogen bond donors/acceptors: Limited H-bond donors (likely 0), few acceptors\n4. The tertiary amine can be protonated at physiological pH\n\nThe diethylaminoethyl group suggests this might be related to local anesthetics or similar compounds, some of which do cross the BBB to varying degrees. The high lipophilicity from the cyclohexyl groups and the presence of a basic amine (which could be partially ionized) suggests moderate BBB penetration is possible.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 4,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure: O=C(C)Nc1cc(c2csc(N=C(N)N)n2)ccc1\n\nThis molecule contains:\n- An acetamide group\n- A benzene ring\n- A thiazole ring\n- A guanidine group (N=C(N)N)\n\nThe guanidine group is highly polar and typically protonated at physiological pH, making it positively charged. Charged molecules generally have very poor blood-brain barrier penetration due to the lipid bilayer nature of the BBB.\n\nAdditionally, this appears to be a relatively polar molecule with multiple hydrogen bond donors and acceptors, which would further limit BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 5,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties:\n\nThe molecule contains:\n- A piperidine ring with substitutions\n- An aromatic aniline group\n- A thiophene ring\n- An ether group\n- Moderate molecular weight\n- Several rotatable bonds\n\nKey factors for BBB penetration:\n- Molecular weight appears reasonable (likely <500 Da)\n- Multiple nitrogen atoms that could be protonated at physiological pH\n- Lipophilic aromatic groups (phenyl, thiophene)\n- Some polar groups (amide, ether)\n\nThe presence of a tertiary amine in the piperidine ring and the overall structure suggests this could be a CNS-active compound with reasonable lipophilicity. However, the polar surface area and the number of H-bond acceptors may be at the threshold.\n\nBased on the structural features - particularly the lipophilic character, moderate size, and the fact it resembles other CNS-penetrant compounds:\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 6,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "I need to analyze whether this molecule can penetrate the blood-brain barrier (BBB).\n\nTo assess BBB penetration, I'll consider key molecular properties:\n\n1. **Molecular weight**: Counting the atoms in the SMILES structure, this appears to be a moderately sized molecule, likely in the range of 350-450 Da.\n\n2. **Lipophilicity**: The molecule contains:\n   - A benzodiazepine-like core (fused ring system with Cl substitution)\n   - Multiple nitrogen-containing heterocycles\n   - Polar groups (hydroxyl groups, carbonyl)\n   - An N-methyl group\n\n3. **Hydrogen bond donors/acceptors**: \n   - HBD: 2 hydroxyl groups = 2\n   - HBA: Multiple nitrogens, oxygens (appears to be >6)\n\n4. **Polar surface area**: With multiple N and O atoms, the PSA is likely moderate to high.\n\nThe structure contains a benzodiazepine-like scaffold (chlorinated aromatic fused to a 7-membered ring with N-methyl and carbonyl), which is characteristic of CNS-active drugs. However, it's heavily substituted with a polar oxadiazole side chain containing two hydroxyl groups.\n\nClassical benzodiazepines do penetrate the BBB well, but this molecule has additional polar substituents that would reduce BBB penetration. The two hydroxyl groups significantly increase polarity.\n\nGiven the moderately high polarity from multiple heteroatoms and hydroxyl groups, this molecule likely has LIMITED but POSSIBLE BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 7,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider several factors:\n\n1. **Molecular Weight**: This is clearly a large peptide with multiple amino acid residues. Counting the structure, this appears to be a cyclic peptide with approximately 10-12 amino acid residues, giving it a molecular weight likely >1000 Da.\n\n2. **Hydrogen Bond Donors/Acceptors**: The molecule contains numerous amide bonds (N-H donors and C=O acceptors), multiple carboxylic acids, and other polar groups, resulting in many hydrogen bond donors and acceptors.\n\n3. **Lipinski's Rule of Five violations**: \n   - MW >> 500 Da\n   - HBD >> 5\n   - HBA >> 10\n\n4. **Peptide nature**: This is a peptide/cyclic peptide structure, which generally do not cross the BBB well due to their:\n   - High molecular weight\n   - High polar surface area\n   - Multiple hydrogen bonding groups\n   - Poor lipophilicity\n\nPeptides of this size typically cannot penetrate the blood-brain barrier without special modifications or transport mechanisms.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 8,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be clozapine or a closely related benzodiazepine derivative with a methylpiperazine side chain.\n\nKey factors for BBB penetration:\n- Molecular weight: Moderate (appears to be around 326-327 Da)\n- Lipophilicity: Contains aromatic rings and a piperazine group\n- Polar surface area: Has nitrogen atoms but not excessively polar\n- This structure is consistent with clozapine, which is known to cross the BBB\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 9,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure.\n\nThe SMILES string `NCCc1ccc(O)c(O)c1` represents dopamine:\n- A phenyl ring with two hydroxyl groups (catechol)\n- An ethylamine side chain\n\nDopamine is a catecholamine neurotransmitter that is highly polar due to:\n- Primary amine group (charged at physiological pH)\n- Two phenolic hydroxyl groups\n- Overall hydrophilic character\n\nDopamine does NOT effectively cross the blood-brain barrier due to its polarity and the presence of multiple hydrogen bond donors/acceptors. This is why L-DOPA (a precursor) is used clinically instead of dopamine itself to treat Parkinson's disease.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 10,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its physicochemical properties.\n\nThe molecule is: Nc1nnc(c(N)n1)c2cccc(Cl)c2Cl\n\nThis appears to be a triazine/pyrimidine derivative with two amino groups and a dichlorophenyl substituent.\n\nKey factors for BBB penetration:\n- Molecular weight: ~240 g/mol (within favorable range <400-500)\n- Lipophilicity: The dichlorophenyl group adds lipophilicity, but two amino groups add polarity\n- Hydrogen bond donors: 2 NH2 groups = 4 H-bond donors (borderline; ideal is <3)\n- Polar surface area: Likely around 90-100 Ų (borderline; ideal is <90 Ų)\n\nThe molecule has relatively high polarity due to multiple nitrogens and amino groups, which would limit BBB penetration despite the lipophilic chlorophenyl group.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 11,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule is: c1ccc(cc1)c1csc(n1)N=C(N)N\n\nThis appears to be a thiazole derivative with a phenyl group and a guanidine group.\n\nKey factors for BBB penetration:\n- Molecular weight: This molecule appears relatively small\n- Lipophilicity: Has aromatic rings (good) but also a guanidine group (highly polar, charged at physiological pH)\n- Hydrogen bond donors/acceptors: The guanidine group has multiple NH groups (high HBD count)\n- Charge: Guanidine groups are typically protonated at physiological pH, making the molecule cationic\n\nThe guanidine group is highly polar and positively charged at physiological pH, which significantly reduces BBB penetration despite the presence of aromatic rings.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 12,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Yes",
+      "parsed": "yes"
     },
     {
       "index": 13,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nLooking at the structure:\n- It contains a pyridine ring with a dimethylamino methyl group\n- It has a bipyridine-like system\n- It contains a nitro group ([N+]([O-])=O)\n- Multiple nitrogen atoms and aromatic rings\n\nKey factors for BBB penetration:\n- The molecule has multiple polar groups (nitro group, multiple nitrogens)\n- It appears to have relatively high molecular weight\n- The nitro group and multiple H-bond acceptors/donors reduce BBB permeability\n- The presence of the charged nitro group is particularly problematic for BBB penetration\n\nBased on these structural features, particularly the nitro group and high polarity:\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 14,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThis SMILES string represents vinblastine (or a closely related vinca alkaloid), which is a large, complex molecule with:\n- Multiple rings\n- High molecular weight (>800 Da)\n- Multiple polar groups (hydroxyl, ester groups)\n- Several nitrogen atoms (some charged at physiological pH)\n\nKey factors for BBB penetration:\n- Molecular weight: Very high (>>500 Da) - unfavorable\n- Polar surface area: High due to multiple OH, ester, and N groups - unfavorable\n- The molecule likely has poor CNS penetration characteristics\n\nVinblastine and related vinca alkaloids are known to have poor blood-brain barrier penetration due to:\n1. High molecular weight\n2. P-glycoprotein efflux\n3. High polar surface area\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 15,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties based on the SMILES structure.\n\nThe molecule appears to be a tricyclic compound with:\n- A fused ring system (appears to be related to a fluorenone or similar structure)\n- An imidazole substituent\n- Molecular weight that seems moderate\n- Some nitrogen atoms that could affect polarity\n\nKey factors for BBB penetration:\n- Molecular weight should be <400-500 Da\n- Should be relatively lipophilic (LogP 1-3 optimal)\n- Hydrogen bond donors should be low (<3)\n- PSA (polar surface area) should be <90 Å²\n\nLooking at this structure, it has:\n- Moderate molecular weight (likely <400)\n- Limited hydrogen bond donors\n- Some lipophilic character from the aromatic rings\n- The imidazole may increase polarity somewhat but not excessively\n\nBased on these considerations, this molecule likely has properties conducive to BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 16,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its properties.\n\nThis molecule appears to be a complex ergot alkaloid derivative (based on the brominated indole structure and the overall scaffold). \n\nKey factors for BBB penetration:\n- Molecular weight: This is a large, complex molecule with multiple rings and heteroatoms, likely MW > 500-600 Da\n- Multiple polar groups: Several amide bonds, hydroxyl groups, and nitrogen atoms\n- High number of hydrogen bond donors and acceptors\n- Complex polycyclic structure\n- Presence of a charged/ionizable tertiary amine\n\nThe molecule violates multiple Lipinski rules and appears too large and polar for passive BBB penetration. While some ergot alkaloids can cross the BBB, this particular derivative with its size, complexity, and multiple polar functionalities would have very limited penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 17,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure.\n\nThe SMILES string shows:\n- [Na+] indicating a sodium salt\n- A complex structure that appears to be a penicillin-type antibiotic (beta-lactam ring with SC(C)(C) pattern)\n- A naphthalene group attached\n- A carboxylate group [O-]\n\nThis appears to be nafcillin sodium, a penicillin antibiotic.\n\nKey properties affecting BBB penetration:\n- It's an ionic compound (sodium salt with carboxylate)\n- High molecular weight\n- Multiple polar groups\n- Charged at physiological pH\n\nPenicillin antibiotics generally have poor blood-brain barrier penetration due to their ionic nature and hydrophilicity, except when meninges are inflamed.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 18,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThe molecule appears to be a cephalosporin-type beta-lactam antibiotic (based on the core structure with the beta-lactam ring fused to a dihydrothiazine ring, and the carboxylic acid group).\n\nKey factors affecting blood-brain barrier (BBB) penetration:\n- Molecular weight: This molecule is relatively large (>400 Da)\n- Polar groups: Contains multiple polar groups including:\n  - Carboxylic acid group (charged at physiological pH)\n  - Amide groups\n  - Hydroxyl groups\n- Charge: The carboxylic acid makes this molecule anionic at physiological pH\n\nBeta-lactam antibiotics, particularly cephalosporins with charged groups, generally have poor BBB penetration due to their hydrophilic nature and ionic character.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 19,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Yes",
+      "parsed": "yes"
     },
     {
       "index": 20,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a naphthyloxy-propanolamine derivative (specifically, propranolol hydrochloride based on the structure). \n\nKey factors for BBB penetration:\n- Molecular weight: ~295 g/mol (reasonable for BBB penetration, <500)\n- Lipophilicity: Contains aromatic naphthalene system (lipophilic)\n- Hydrogen bond donors/acceptors: Has OH and NH groups (but relatively few)\n- It's a basic amine that will be ionized at physiological pH\n\nPropranolol is known to have moderate BBB penetration due to its lipophilic character, though its basic amine group limits this somewhat.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 21,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLet me analyze the structure:\n- The molecule contains a naphthoquinone core with a hydroxyl group\n- A cyclohexyl linker\n- A chlorobenzene group\n- Multiple aromatic rings\n\nKey properties for BBB penetration:\n- Molecular weight: appears to be around 350-400 g/mol (acceptable, should be <500)\n- Lipophilicity: Multiple aromatic rings and a chlorine suggest high lipophilicity\n- Hydrogen bond donors: 1 (OH group)\n- Hydrogen bond acceptors: 3 (OH and C=O groups)\n\nThe molecule appears to follow Lipinski's rules reasonably well and has characteristics that would allow BBB penetration - it's lipophilic enough, not too many polar groups, and reasonable size.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 22,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis molecule is corticosterone (a corticosteroid hormone). Let me analyze its BBB penetration potential:\n\n1. Molecular weight: ~346 g/mol (within acceptable range for BBB penetration, typically <400-500)\n2. Structure: Steroid backbone with multiple hydroxyl groups and a ketone\n3. Lipophilicity: Steroids generally have moderate lipophilicity\n4. Hydrogen bond donors/acceptors: Has several oxygen-containing groups which increase polarity\n\nCorticosterone and similar corticosteroids are known to cross the blood-brain barrier, though their penetration can be limited compared to more lipophilic compounds. They do access the brain to exert their effects on glucocorticoid receptors in the CNS.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 23,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLet me analyze the structure:\n- The molecule contains a piperidine ring (N1-CCCCC1)\n- A benzyl group attached to the piperidine\n- An ether linkage with a propyl chain\n- A thiazole ring (nccs3) connected via an amine\n\nKey BBB penetration criteria:\n- Molecular weight: Counting atoms, this appears to be around 331 g/mol (within the typical <400-500 limit)\n- Lipophilicity: The molecule has aromatic rings and aliphatic chains suggesting moderate lipophilicity\n- Hydrogen bond donors: 1 NH group\n- Hydrogen bond acceptors: 3-4 (O, N atoms)\n- Polar surface area: Likely moderate due to the heteroatoms\n\nThe molecule appears to follow Lipinski's rule of five and has properties consistent with CNS penetration (one basic nitrogen, moderate size, likely adequate lipophilicity).\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 24,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure.\n\nThis appears to be a cephalosporin antibiotic (based on the beta-lactam ring structure and characteristic features). The molecule contains:\n- A sodium salt form [Na+] with a carboxylate [O-]\n- Multiple polar groups (carboxylate, amide bonds)\n- A tetrazole ring (cnnn4)\n- Overall charged nature at physiological pH\n\nKey factors against BBB penetration:\n1. **Ionic character**: The molecule exists as a sodium salt with charged groups\n2. **High polarity**: Multiple polar functional groups\n3. **Molecular weight**: Appears to be >500 Da\n4. **Hydrophilicity**: The charged carboxylate and overall structure suggest high hydrophilicity\n\nCephalosporin antibiotics generally do NOT penetrate the blood-brain barrier well due to their ionic nature and hydrophilicity, unless specifically designed to do so.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 25,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure:\n- It contains multiple polar groups (amides, ethers, tetrazole ring)\n- Multiple nitrogen atoms (7 total, including a tetrazole ring)\n- Molecular weight appears to be relatively high\n- Multiple hydrogen bond acceptors and donors\n- The presence of a tetrazole ring and multiple polar functionalities suggests high polarity\n\nKey BBB penetration criteria typically include:\n- Molecular weight < 400-500 Da\n- Low polar surface area (PSA < 90 Å²)\n- Moderate lipophilicity (logP 1-3)\n- Few hydrogen bond donors (< 3)\n\nThis molecule has:\n- High nitrogen content\n- Multiple H-bond acceptors\n- A tetrazole ring (very polar)\n- An amide group\n- Overall high polarity\n\nThe high polarity and multiple polar functional groups suggest poor BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 26,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule is diethylstilbestrol (DES), which has:\n- Two phenol groups (hydroxyl groups on benzene rings)\n- Molecular weight: ~268 g/mol\n- Multiple hydrogen bond donors (2 OH groups)\n- Relatively lipophilic core but polar hydroxyl groups\n\nThe presence of two phenolic OH groups makes the molecule more polar and increases hydrogen bonding, which generally reduces BBB penetration. While the molecule has some lipophilic character from the aromatic rings and ethyl groups, the polar hydroxyl groups significantly limit its ability to cross the blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 27,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThis appears to be a tetracycline antibiotic derivative (specifically demeclocycline or a related compound based on the structure). Key observations:\n\n1. It's a large, complex molecule with multiple rings\n2. It has multiple hydroxyl groups (polar)\n3. It has a quaternary/charged amine (N(C)C)\n4. It contains both [Cl-] and [H+] indicating it's in a salt form\n5. Multiple polar functional groups including ketones, hydroxyl groups, and charged centers\n\nTetracyclines are known to have poor blood-brain barrier penetration due to:\n- High polarity\n- Multiple hydrogen bonding groups\n- Ionic character (especially in salt form)\n- Relatively high molecular weight\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 28,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThis SMILES string represents a steroid structure (appears to be a corticosteroid, likely cortisone or a related compound based on the structural features including ketone groups and a side chain with C(=O)CO).\n\nKey factors for BBB penetration:\n- Molecular weight: This is a steroid (~360 Da), which is moderate\n- Polar surface area: Contains multiple oxygen atoms (ketones, hydroxyl groups) suggesting high PSA (>90 Å²)\n- Lipophilicity: Steroids are generally lipophilic, but the multiple polar groups reduce this\n- Hydrogen bond donors/acceptors: Multiple oxygen-containing groups increase polarity\n\nCorticosteroids generally have LIMITED blood-brain barrier penetration due to:\n- High polar surface area from multiple oxygen functionalities\n- P-glycoprotein efflux\n- Relatively high molecular weight\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 29,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule contains:\n- A tert-butyl ester group\n- An aromatic ring\n- A bis(2-chloroethyl)amino group (nitrogen mustard moiety)\n- Overall structure suggests this is chlorambucil or a related compound\n\nKey considerations for BBB penetration:\n- Molecular weight: Appears to be around 304 g/mol (moderate)\n- Lipophilicity: Has both lipophilic (aromatic ring, tert-butyl group) and some polar features\n- The nitrogen mustard group adds some polarity\n- Hydrogen bond donors/acceptors: Limited\n\nChlorambucil (if this is that compound) is known to have LIMITED blood-brain barrier penetration due to its relatively polar nature and the ionizable carboxylic acid group (though here it's esterified, which would increase lipophilicity somewhat).\n\nHowever, the ester form shown here would be MORE lipophilic than chlorambucil itself, potentially allowing some BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 30,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure:\n- It contains a nitro group ([N+]([O-])=O)\n- Multiple aromatic rings (furan, benzene, pyrrole-like ring)\n- Has several nitrogen atoms (tertiary amine, secondary amine)\n- The molecule appears to be relatively large and complex\n- Contains polar groups including the nitro group and multiple nitrogens\n\nKey factors for BBB penetration:\n- The presence of the nitro group increases polarity\n- Multiple H-bond donors/acceptors (amines, nitro group)\n- Appears to have relatively high molecular weight\n- The molecule seems quite polar overall\n\nBased on these characteristics, particularly the high polarity from the nitro group and multiple nitrogen functionalities, this molecule is unlikely to efficiently penetrate the blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 31,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis molecule appears to be a complex statin-like structure (possibly lovastatin acid or a related compound) based on the SMILES string showing:\n- Multiple hydroxyl groups (-OH)\n- A carboxylic acid group\n- A large molecular weight\n- Multiple chiral centers\n- High polarity\n\nKey factors against BBB penetration:\n- Multiple hydroxyl groups (at least 4)\n- Carboxylic acid groups (at least 2)\n- High molecular weight\n- High polar surface area\n- Low lipophilicity\n\nStatins generally have poor blood-brain barrier penetration due to their hydrophilic nature and they are substrates for efflux transporters.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 32,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLet me analyze the structure:\n- The molecule contains a piperidine ring (C1CCN(CC1))\n- A benzyl group connected to the piperidine\n- A propoxy chain with an amide group\n- Overall formula suggests moderate molecular weight\n\nKey factors for BBB penetration:\n1. Molecular weight: Appears to be around 290 g/mol (acceptable, <500)\n2. Lipophilicity: Has aromatic ring and aliphatic chains (favorable)\n3. Hydrogen bond donors: 1 NH in amide (acceptable, <3)\n4. Hydrogen bond acceptors: 2-3 (acceptable, <7)\n5. Polar surface area: Moderate due to amide and ether groups\n\nThe molecule has a basic nitrogen in the piperidine ring and relatively balanced lipophilic/hydrophilic character, which generally favors BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 33,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a quinolone-like structure with:\n- A carboxylic acid group (C(O)=O)\n- A ketone group\n- An N-ethyl substituent\n- A methyl group on the pyridine ring\n\nKey factors for BBB penetration:\n1. Molecular weight: This molecule appears to have a moderate MW (likely around 246 g/mol)\n2. The carboxylic acid group is ionizable at physiological pH, making it charged\n3. Charged/ionized molecules generally have poor BBB penetration\n4. This structure resembles fluoroquinolone antibiotics, which typically have poor BBB penetration\n\nGiven the presence of the ionizable carboxylic acid group and the overall polar nature of the molecule, it would likely have limited BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 34,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be esomeprazole (or a related proton pump inhibitor), based on the benzimidazole core with a sulfinyl linkage to a pyridine ring.\n\nKey considerations for BBB penetration:\n- Molecular weight: Appears to be ~345 g/mol (within acceptable range <500)\n- Lipophilicity: Has methoxy groups suggesting moderate lipophilicity\n- Hydrogen bond donors/acceptors: Has several (benzimidazole NH, sulfinyl oxygen, methoxy oxygens)\n- Polar surface area: The sulfinyl group and multiple heteroatoms increase PSA\n- Ionizable groups: Benzimidazole can be ionized\n\nProton pump inhibitors like omeprazole/esomeprazole are generally considered to have poor blood-brain barrier penetration due to their relatively high polar surface area and the presence of the sulfinyl group.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 35,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a substituted pyrimidine with:\n- A guanidine-like group (NC(N)=N-)\n- A carbonyl group\n- A chloro substituent\n- Multiple amino groups\n- A pyrimidine core\n\nKey factors for BBB penetration include:\n- Molecular weight\n- Lipophilicity (LogP)\n- Hydrogen bond donors/acceptors\n- Polar surface area\n- Charge at physiological pH\n\nThis molecule has:\n- Multiple nitrogen atoms (high hydrogen bond donors/acceptors)\n- A guanidine group (likely protonated/charged at physiological pH)\n- High polar surface area\n- Multiple polar groups making it hydrophilic\n\nThese characteristics suggest poor lipophilicity and likely poor BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 36,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure (SMILES: CNC(=NC#N)Nc1cccc(c1)c1csc(n1)N=C(N)N), this molecule appears to be:\n\n- Relatively large with multiple aromatic rings\n- Contains several nitrogen atoms and polar groups (guanidine-like groups, cyano group)\n- Has multiple hydrogen bond donors and acceptors\n- Likely has high polar surface area due to the guanidine groups and cyano group\n\nThe presence of multiple strongly basic guanidine groups would make this molecule highly polar and likely protonated at physiological pH, which would significantly reduce BBB penetration. The high number of hydrogen bond donors and acceptors also suggests poor BBB permeability.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 37,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties based on the SMILES structure.\n\nThe molecule contains:\n- A benzothiazole core with a phenoxy substituent\n- An amino group (-NH2)\n- A hydroxyl group (-OH)\n- Multiple aromatic rings\n\nKey factors for BBB penetration:\n- Molecular weight: Appears moderate (around 250-300 g/mol)\n- Polar groups: Has both -NH2 and -OH groups, which increase polarity and hydrogen bonding\n- The presence of multiple hydrogen bond donors (NH2, OH) and acceptors typically reduces BBB penetration\n\nThe molecule has 2-3 hydrogen bond donors (NH2 and OH groups), which exceeds the typical limit for good BBB penetration (≤2 according to common rules). The hydroxyl and amino groups make it relatively polar.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 38,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its properties.\n\nThe molecule appears to be a catechol-containing amino acid derivative with:\n- A catechol group (two hydroxyl groups on benzene ring)\n- A carboxylic acid group\n- A hydrazine group\n- Multiple polar functional groups\n\nKey factors against BBB penetration:\n1. Multiple hydroxyl groups (high polarity)\n- The catechol moiety has 2 -OH groups\n- The carboxylic acid adds another polar group\n2. Charged carboxylic acid at physiological pH\n3. Hydrazine group adds polarity\n4. Overall high hydrogen bonding capacity\n\nThis structure is similar to methyldopa (an antihypertensive drug) which is known to have LIMITED BBB penetration - it does cross but only via active transport (LAT1 transporter for large amino acids), not passive diffusion.\n\nHowever, since the question asks simply whether it penetrates (not specifying mechanism), and considering this type of molecule CAN enter the brain via active transport:\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 39,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its properties based on the SMILES structure.\n\nLooking at this molecule:\n- It contains multiple sugar moieties (indicated by the repeating O[C@@H] patterns)\n- It has multiple hydroxyl groups (-OH)\n- It has a lactone ring (COC3=O)\n- It appears to be a glycosylated natural product, likely a lignan glycoside (possibly podophyllotoxin derivative)\n\nKey factors against BBB penetration:\n1. Multiple polar hydroxyl groups increase hydrophilicity\n2. Glycosidic linkages (sugar attachments) significantly increase molecular weight and polarity\n3. High number of hydrogen bond donors and acceptors\n4. Likely high molecular weight (>500 Da)\n\nThese characteristics suggest poor BBB penetration as the molecule is too polar and too large to readily cross the lipid-rich blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 40,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its structure and properties.\n\nThe SMILES string `NCC(O)c1ccc(O)c(O)c1` represents norepinephrine (noradrenaline), which has:\n- Multiple hydroxyl groups (3 -OH groups)\n- An amine group (-NH2)\n- High polarity and hydrophilicity\n\nNorepinephrine is a catecholamine that is highly polar due to its multiple hydroxyl groups. These polar groups make it very hydrophilic, which prevents it from easily crossing the lipid-rich blood-brain barrier. This is well-established in pharmacology - norepinephrine does not readily penetrate the blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 41,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a complex heterocyclic compound with:\n- A Boc (tert-butoxycarbonyl) protecting group\n- Multiple heteroaromatic rings (imidazole-like and thiophene rings)\n- Molecular weight that appears moderate\n- Multiple H-bond acceptors (carbonyl groups, nitrogen atoms)\n- Limited H-bond donors\n\nKey factors for BBB penetration:\n- Molecular weight appears to be around 300-350 g/mol (acceptable)\n- Multiple polar groups and H-bond acceptors (reduces BBB penetration)\n- The Boc group adds lipophilicity but also bulk\n- Several aromatic nitrogen atoms increase polarity\n\nGiven the multiple H-bond acceptors (likely >7), polar heteroatoms, and overall polarity of this structure, it would likely have poor blood-brain barrier penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 42,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be methadone or a close analog (a diphenylpropylamine derivative with a ketone group).\n\nKey factors for BBB penetration:\n- Molecular weight: ~321 g/mol (within acceptable range <400-500)\n- Lipophilicity: Two phenyl rings suggest high lipophilicity\n- Contains a tertiary amine (N(C)C) that can be protonated at physiological pH\n- Relatively few hydrogen bond donors\n- Structure suggests it would have favorable logP for BBB penetration\n\nMethadone is known to penetrate the blood-brain barrier effectively as it acts on opioid receptors in the CNS.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 43,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule appears to be a tropane-like bicyclic structure connected to an indazole moiety via an amide linkage.\n\nKey factors for BBB penetration:\n- Molecular weight: Approximately 324 g/mol (within favorable range <400-500)\n- Lipophilicity: Contains aromatic rings and aliphatic portions (likely favorable logP)\n- Hydrogen bond donors: 1 (the NH in the amide)\n- Hydrogen bond acceptors: 3-4 (carbonyl oxygen, nitrogen atoms)\n- Polar surface area: Relatively low due to mostly non-polar structure\n- No permanent charge at physiological pH\n\nThe molecule has properties consistent with CNS penetration (low MW, low HBD count, reasonable polarity).\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 44,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure.\n\nLooking at the SMILES notation, this appears to be a complex containing:\n1. Two molecules of theophylline (CN1C(=O)N(C)c2nc[nH]c2C1=O)\n2. One molecule of ethylenediamine (NCCN)\n\nThis is actually **aminophylline**, which is a complex of theophylline and ethylenediamine.\n\nTheophylline itself does penetrate the blood-brain barrier, and aminophylline (being a salt form of theophylline) also crosses into the CNS, which is why it can cause CNS side effects like seizures and why it has therapeutic effects in conditions like apnea.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 45,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule is dapsone (4,4'-diaminodiphenyl sulfone), which has:\n- Two amino groups (-NH2)\n- A sulfonyl group (-SO2-)\n- Two aromatic rings\n- Molecular weight: ~248 g/mol\n- Multiple polar groups (sulfonyl and amino groups)\n- Potential for hydrogen bonding\n\nThe sulfonyl group is highly polar, and the molecule has multiple hydrogen bond donors/acceptors. While the molecular weight is reasonable for BBB penetration, the high polarity and hydrogen bonding capacity generally limit BBB penetration.\n\nDapsone does have some CNS penetration documented in the literature, though it's limited.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 46,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure CCNC(=NC#N)NCCSCc1c(cccn1)Br:\n- It contains a guanidine-like group (NC(=NC#N)N)\n- An aliphatic chain with sulfur\n- A brominated pyridine ring\n\nKey factors for BBB penetration:\n- Molecular weight: Appears to be moderate (~330-340 g/mol)\n- Contains multiple nitrogen atoms (likely protonatable at physiological pH)\n- Has polar groups including cyano group\n- Presence of bromine (increases lipophilicity but also MW)\n\nThe molecule has several nitrogen atoms that would likely be protonated at physiological pH, making it positively charged and polar. This would significantly reduce BBB penetration. Additionally, the guanidine-like moiety is highly polar and typically prevents good BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 47,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Looking at this molecule, I need to consider its properties relevant to blood-brain barrier (BBB) penetration.\n\nThe structure shows:\n- A phenyl ring with methyl substituents\n- An ether linkage\n- A primary amine\n- Small molecular weight (~179 g/mol)\n- Relatively lipophilic core with a basic amine\n\nKey factors favoring BBB penetration:\n- Low molecular weight (< 400-500 Da)\n- Presence of lipophilic aromatic ring\n- The amine can exist in both ionized and neutral forms\n\nKey factors that may limit penetration:\n- The primary amine at physiological pH will be largely protonated\n- Hydrogen bond donors/acceptors present\n\nHowever, molecules with similar structures (aromatic ethers with basic amines) like certain sympathomimetics can penetrate the BBB to varying degrees.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 48,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule is: CCCNC(=O)N[S](=O)(=O)c1ccc(Cl)cc1\n\nThis is a sulfonamide urea derivative with:\n- A propyl chain\n- A urea group (C=O)NH\n- A sulfonamide group SO2NH\n- A chlorobenzene ring\n\nKey properties affecting BBB penetration:\n- Molecular weight: ~291 g/mol (moderate)\n- Multiple H-bond donors (2 NH groups)\n- Multiple H-bond acceptors (3 oxygens + sulfonamide)\n- High polar surface area (PSA) due to sulfonamide and urea groups\n- The sulfonamide group is very polar\n\nThe high PSA (likely >90 Å²) and multiple polar groups (sulfonamide + urea) typically prevent good BBB penetration. Sulfonamides are generally polar and do not readily cross the BBB unless specifically designed to do so.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 49,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule contains:\n- A sulfonyl group [S](=O)(=O)\n- Multiple polar groups (hydroxyl groups -OH, amide -NC(=O)-)\n- A primary alcohol (CO)\n- Dichloroacetamide group -C(=O)C(Cl)Cl\n- Overall relatively high polarity and hydrogen bonding capacity\n\nThis appears to be a dichloroacetamide derivative with multiple polar functional groups. Molecules that penetrate the blood-brain barrier typically need to be:\n- Relatively lipophilic\n- Low molecular weight (<400-500 Da)\n- Low number of hydrogen bond donors and acceptors\n- Low polar surface area\n\nThis molecule has multiple hydrogen bond donors (NH, 2 OH groups) and acceptors, high polarity, and characteristics more consistent with poor BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 50,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule is: c1ccc(cc1N)c1csc(n1)N=C(N)N\n\nThis is famotidine, an H2 receptor antagonist used to treat ulcers and GERD.\n\nKey properties affecting BBB penetration:\n- Contains multiple polar groups (NH2, guanidine group)\n- Has a thiazole ring with nitrogen and sulfur\n- Multiple hydrogen bond donors and acceptors\n- Relatively polar and hydrophilic overall\n\nFamotidine is known to have poor blood-brain barrier penetration due to its high polarity and hydrophilic nature.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 51,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis appears to be quinine or a related compound based on the structure (quinoline ring system with a quinuclidine moiety and a vinyl group).\n\nKey factors for BBB penetration:\n- Molecular weight: This molecule has a moderate molecular weight (~324 g/mol)\n- Lipophilicity: Contains aromatic rings and some polar groups\n- Polar surface area: Has nitrogen atoms and hydroxyl/methoxy groups\n- It's a known alkaloid structure\n\nQuinine and related compounds are known to cross the blood-brain barrier.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 52,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a barbiturate derivative (based on the barbituric acid core structure with the characteristic ring containing C(=O)NC(=O)NC(=O)).\n\nLooking at the structure:\n- It has multiple alkyl substituents (propyl and ethyl groups)\n- Molecular weight appears relatively low\n- It has hydrogen bond donors and acceptors from the barbituric acid core\n- The lipophilicity is increased by the alkyl chains\n\nBarbiturates, particularly those with adequate lipophilicity from alkyl substitutions, are known to cross the blood-brain barrier effectively. This is actually the basis for their use as CNS depressants and anesthetics.\n\nGiven the lipophilic alkyl substituents on this barbiturate structure, it should penetrate the blood-brain barrier.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 53,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis molecule is emtricitabine (FTC), a nucleoside reverse transcriptase inhibitor used to treat HIV. Looking at its structure:\n\n- It contains a fluorinated furanose sugar ring\n- It has a cytosine-like base with a thiol group\n- It has multiple polar groups (OH, NH, C=O)\n- It has a molecular weight around 247 g/mol\n\nKey factors for BBB penetration:\n- Multiple hydrogen bond donors and acceptors (poor for BBB penetration)\n- High polarity\n- The presence of hydroxyl groups and the polar heterocyclic structure\n\nEmtricitabine is known to have limited CNS penetration due to its polar nature.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 54,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThis molecule is penicillin V (phenoxymethylpenicillin) in its anionic form. \n\nKey properties to consider for BBB penetration:\n- It's a penicillin antibiotic with a beta-lactam ring\n- Contains a carboxylate anion (charged at physiological pH)\n- Molecular weight: ~349 Da\n- Multiple polar groups and hydrogen bond donors/acceptors\n- The charged carboxylate group significantly reduces lipophilicity\n\nPenicillins generally have poor blood-brain barrier penetration due to:\n1. Their ionized/charged nature at physiological pH\n2. High polarity\n3. Active efflux mechanisms\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 55,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Looking at this molecule, I need to analyze its structure based on the SMILES notation provided.\n\nThis appears to be a cephalosporin antibiotic (likely cefotaxime) based on the structural features:\n- Beta-lactam core structure\n- Carboxylate group ([O-])\n- Sodium counterion ([Na+])\n- Multiple polar functional groups\n- Aminothiazole moiety\n\nKey properties that limit blood-brain barrier (BBB) penetration:\n1. **Ionic character**: Contains both carboxylate anion and sodium cation\n2. **High polarity**: Multiple polar groups including amide, carboxylate, and ester\n3. **Molecular weight**: Appears to be >400 Da\n4. **Hydrophilicity**: The charged and polar groups make it highly hydrophilic\n\nCephalosporin antibiotics as a class are generally known for poor BBB penetration due to their ionic, hydrophilic nature.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 56,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThe SMILES string represents a fluoroquinolone antibiotic (specifically appears to be ofloxacin or a similar compound based on the structure with the fluorine, piperazine ring, and quinolone core).\n\nKey considerations for BBB penetration:\n- Molecular weight: This molecule is relatively large (~361 g/mol)\n- Contains a carboxylic acid group (charged at physiological pH)\n- Contains a basic piperazine group (also charged at physiological pH)\n- Multiple polar groups and hydrogen bond donors/acceptors\n- Zwitterionic character at physiological pH\n\nFluoroquinolones generally have LIMITED blood-brain barrier penetration due to their zwitterionic nature and the presence of charged groups at physiological pH. While some CNS penetration occurs (typically 10-40% of serum levels), they are not considered good BBB penetrants.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 57,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its physicochemical properties.\n\nLooking at the structure, this appears to be a penicillin-type antibiotic (containing the beta-lactam ring structure with the characteristic thiazolidine ring and the penicillin core).\n\nKey properties to consider for BBB penetration:\n1. Molecular weight: This molecule is quite large (appears to be >450 Da)\n2. Polar surface area: Contains multiple polar groups (carboxylic acid, amides)\n3. Charge: Has a carboxylic acid group (likely ionized at physiological pH)\n4. H-bond donors and acceptors: Multiple amide bonds and carboxylic acid groups\n\nPenicillin-type antibiotics are generally known to have poor BBB penetration due to:\n- High polarity\n- Ionization at physiological pH\n- Relatively high molecular weight\n- High number of hydrogen bond acceptors/donors\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 58,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its physicochemical properties.\n\nLooking at the structure:\n- It contains a pyrrolidinone ring\n- A piperazine ring system\n- A pyridine ring with a trifluoromethyl group\n- Multiple nitrogen atoms (basic centers that can be protonated)\n- A relatively long aliphatic chain connecting the rings\n\nKey BBB penetration factors:\n- Molecular weight: Appears to be around 370-380 g/mol (acceptable, <500)\n- Multiple nitrogen atoms suggest high polarity and potential for hydrogen bonding\n- The presence of multiple basic nitrogens likely means high polar surface area (PSA)\n- Likely high number of hydrogen bond acceptors (>5)\n\nThe molecule has characteristics typical of antipsychotic or CNS-active drugs (piperazine core, aromatic substituents), but the combination of multiple basic nitrogens and the overall polarity suggest limited BBB penetration in its ionized form at physiological pH.\n\nHowever, compounds with similar structures (like some antipsychotics) can penetrate the BBB.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 59,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule is: c1cccn2c1nc(c2)CCN\n\nThis represents a fused ring system (imidazo[1,2-a]pyridine) with an ethylamine side chain.\n\nKey factors for BBB penetration:\n- Molecular weight: ~161 g/mol (relatively low, favorable)\n- Contains basic nitrogen (protonatable at physiological pH)\n- Relatively small and compact structure\n- Likely has moderate lipophilicity\n\nThe presence of the protonatable amine and the heteroaromatic system suggests this molecule has properties consistent with CNS penetration, similar to many neurologically active compounds.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 60,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule is: Cc1csc(n1)N=C(N)N\n\nThis is famotidine, an H2 receptor antagonist. Let me evaluate its BBB penetration potential:\n\nKey factors for BBB penetration:\n- Molecular weight: ~337 g/mol (relatively small)\n- However, it contains multiple polar groups (guanidine group, thiazole nitrogen)\n- It has charged/ionizable groups at physiological pH\n- It's hydrophilic\n\nFamotidine is known to have poor blood-brain barrier penetration due to its hydrophilic nature and ionizable groups.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 61,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe SMILES structure represents: Clc1ccccc1C(n2ccnc2)(c3ccccc3)c4ccccc4\n\nThis is a molecule with:\n- A chlorophenyl group\n- An imidazole ring\n- Two additional phenyl groups\n- All connected to a central carbon\n\nThis structure corresponds to clotrimazole, an antifungal agent.\n\nClotrimazole has:\n- Molecular weight: ~345 g/mol\n- Lipophilic character (multiple aromatic rings)\n- Low polar surface area\n\nWhile it has some lipophilic character that could favor BBB penetration, clotrimazole is generally considered to have poor blood-brain barrier penetration due to its relatively high molecular weight and it being a substrate for efflux transporters.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 62,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its properties.\n\nThis is a complex alkaloid structure (appears to be vinblastine or a related vinca alkaloid based on the SMILES string). \n\nKey factors for BBB penetration:\n- Molecular weight: This molecule is very large (MW > 800 g/mol)\n- Multiple polar groups (hydroxyl, ester, amide groups)\n- High number of hydrogen bond acceptors and donors\n- Complex rigid structure\n\nVinca alkaloids are known to have poor BBB penetration due to:\n1. High molecular weight (>>500 Da)\n2. Being substrates for P-glycoprotein efflux pumps\n3. High polar surface area\n\n**No**",
+      "parsed": "no"
     },
     {
       "index": 63,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure: COc1cc(NCc2ccc3nc(N)nc(N)c3c2C)cc(OC)c1OC\n\nThis molecule contains:\n- Multiple methoxy groups (OC)\n- A quinazoline-like bicyclic system with amino groups\n- An amine linkage connecting to a trimethoxybenzene\n\nKey BBB penetration factors:\n- Multiple polar groups (3-4 methoxy groups, multiple NH2 groups)\n- Likely high molecular weight\n- Multiple H-bond donors (NH, NH2 groups) and acceptors\n- Appears to be a diaminopyrimidine derivative similar to trimethoprim\n\nThe presence of multiple amino groups and methoxy groups suggests high polarity and multiple hydrogen bonding sites, which generally reduces BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 64,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties:\n\n1. Molecular weight: This molecule appears to be relatively large with multiple aromatic rings and a piperidine system\n2. Lipophilicity: Contains methoxy group, fluorine, and aromatic systems suggesting moderate to high lipophilicity\n3. Polar surface area: Has nitrogen atoms that could form hydrogen bonds\n4. Structure: Contains a benzimidazole core with a fluorobenzyl group and a methoxyphenethyl-piperidine moiety\n\nThis structure is consistent with astemizole, an antihistamine that is known to have LIMITED blood-brain barrier penetration due to being a P-glycoprotein substrate, though it can cross to some degree.\n\nGiven the moderate molecular weight and the presence of basic nitrogens that can be protonated at physiological pH (reducing BBB penetration), combined with its known profile as astemizole:\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 65,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule contains:\n- A furan ring with a dimethylamino methyl substituent\n- A flexible linker chain with sulfur atoms\n- A nitroimidazole moiety (appears to be part of a nitro-substituted pyridine or imidazole ring)\n\nKey considerations for BBB penetration:\n1. The presence of a nitro group ([N+]([O-])=O) increases polarity\n2. Multiple heteroatoms (N, O, S) increase polarity\n3. The molecule appears relatively large and polar\n4. The charged nitro group and basic amine groups suggest high polarity/ionization at physiological pH\n\nThe high polarity, presence of multiple hydrogen bond acceptors/donors, and likely ionizable groups suggest poor BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 66,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nLooking at the structure:\n- It contains a furan ring connected to a biphenyl system with an imidazole ring that has a nitro group\n- It has a dimethylamino group\n- The molecule appears to have moderate molecular weight\n- It contains a nitro group ([N+]([O-])=O) which is polar\n- Multiple aromatic rings suggest lipophilicity\n- The presence of nitrogen atoms that could be protonated at physiological pH\n\nKey factors for BBB penetration:\n- The nitro group and potential charged nitrogen reduce BBB penetration\n- Multiple polar groups and hydrogen bond acceptors/donors\n- The molecular complexity and polar surface area appear relatively high\n\nBased on the structural features, particularly the nitro group and multiple polar functionalities, this molecule likely has limited BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 67,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis appears to be a prostaglandin-like molecule (specifically resembles prostaglandin F2α or a similar eicosanoid). Key features:\n- Multiple hydroxyl groups (3 -OH groups)\n- One carboxylic acid group (-COOH)\n- Molecular weight around 350-400 Da\n- Multiple polar functional groups\n\nBlood-brain barrier penetration typically requires:\n- Low molecular weight (< 400-500 Da) ✓\n- Low polar surface area (< 90 Å²) ✗\n- Minimal hydrogen bond donors (< 3) ✗\n- Lipophilicity\n\nThis molecule has:\n- Too many hydrogen bond donors (4-5)\n- High polar surface area due to multiple OH groups and COOH\n- High hydrophilicity\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 68,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Looking at this molecule, I need to consider its properties relevant to blood-brain barrier (BBB) penetration.\n\nThe structure appears to be a small heterocyclic compound with multiple nitrogen atoms. Key factors for BBB penetration include:\n\n- Molecular weight: This is a small molecule (likely <200 Da) ✓\n- Hydrogen bond donors/acceptors: Multiple nitrogen atoms present, but the compact fused ring system keeps this reasonable\n- Lipophilicity: The aromatic heterocyclic structure provides some lipophilicity\n- Polar surface area: Likely within acceptable range for a compact bicyclic system\n\nSmall heterocyclic compounds with this type of structure often can penetrate the BBB.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 69,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure:\n- It contains a thiazepine-like ring system\n- Has a dimethylamino group (basic nitrogen)\n- Contains an ester group\n- Has a methoxyphenyl group\n- Molecular weight appears moderate to high\n\nKey factors for BBB penetration:\n- The molecule has a tertiary amine which can be protonated at physiological pH\n- Multiple polar groups (esters, ether)\n- The structure suggests moderate lipophilicity\n- Presence of hydrogen bond acceptors and donors\n\nThis appears to be a diltiazem-like structure (a calcium channel blocker). Diltiazem is known to have limited but some BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 70,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties based on the SMILES structure.\n\nThe molecule appears to be a heterocyclic compound with:\n- A quinazoline-like core structure\n- An amide group (dimethylamide)\n- Methyl substituents\n- Aromatic rings\n\nKey factors for BBB penetration:\n- Molecular weight: Appears moderate (likely <500 Da)\n- Lipophilicity: Multiple aromatic rings and methyl groups suggest good lipophilicity\n- Polar surface area: One amide group and nitrogen heterocycles - likely acceptable PSA\n- Hydrogen bond donors/acceptors: Limited number, which favors BBB penetration\n\nBased on these structural features, this molecule likely has properties consistent with BBB penetration (lipophilic, moderate size, limited polar groups).\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 71,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure, this molecule contains:\n- A chlorinated methoxybenzene group\n- An amide linker\n- A phenylethyl group\n- A sulfonamide group\n- A urea linkage\n- A cyclohexyl group\n\nKey concerns for BBB penetration:\n1. Multiple hydrogen bond donors and acceptors (amide, sulfonamide, urea groups)\n2. High molecular weight (appears to be >500 Da)\n3. High polar surface area due to multiple polar functional groups\n4. The sulfonamide-urea region is highly polar\n\nThis molecule likely violates several Lipinski's rules and has too many polar groups and too high a polar surface area for good BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 72,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nLooking at the structure, this molecule has:\n- Multiple hydrogen bond donors (OH groups, NH groups)\n- Multiple hydrogen bond acceptors (C=O groups, O atoms)\n- A relatively large molecular weight (appears to be a peptide-like molecule with multiple rings)\n- A thioether linkage and aromatic rings\n\nKey factors for BBB penetration:\n- Molecular weight: This appears to be >500 Da (likely ~550-600)\n- Multiple H-bond donors and acceptors (appears to exceed the typical limit of 5 HBD and 10 HBA)\n- High polar surface area due to multiple polar groups\n\nThis molecule violates several Lipinski's rules and appears too large and polar to effectively cross the blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 73,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule contains:\n- A sulfonamide group (S(=O)(=O)NH2)\n- A chlorine atom\n- A benzene ring system with a fused lactam structure\n- Multiple polar groups (sulfonamide, hydroxyl, amide)\n\nKey factors against BBB penetration:\n1. Sulfonamide group - highly polar\n2. Multiple hydrogen bond donors and acceptors\n3. Likely high polar surface area (PSA)\n4. The hydroxyl and sulfonamide groups increase polarity significantly\n\nThese structural features suggest high polarity and poor lipophilicity, which would limit blood-brain barrier penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 74,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its structure and properties.\n\nThe SMILES string represents a tricyclic structure with:\n- A methylated secondary amine (CNCCCC-)\n- A fused tricyclic system (fluorene-like core)\n- Aromatic rings\n\nThis appears to be a tricyclic antidepressant or similar compound. These characteristics suggest:\n- Moderate molecular weight\n- Lipophilic (multiple aromatic rings)\n- Basic amine (can be protonated)\n- Relatively compact structure\n\nTricyclic structures with basic amines typically have good CNS penetration due to their lipophilicity and appropriate size.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 75,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nLooking at the structure, this appears to be a large peptide-like molecule with:\n- Multiple amide bonds\n- Several polar groups (amides, hydroxyl)\n- High molecular weight\n- Multiple hydrogen bond donors and acceptors\n- A complex structure with multiple rings\n\nMolecules that penetrate the blood-brain barrier typically follow Lipinski's Rule of 5 and have:\n- Molecular weight < 500 Da\n- Low number of hydrogen bond donors and acceptors\n- Appropriate lipophilicity\n\nThis molecule appears to:\n- Have a molecular weight well above 500 Da\n- Contains numerous hydrogen bond donors and acceptors (multiple NH, OH, C=O groups)\n- Has high polarity due to multiple amide groups\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 76,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThe SMILES string represents a fluoroquinolone antibiotic structure (appears to be ofloxacin or a similar compound based on the morpholine ring with methyl group, fluorine substituent, and carboxylic acid group).\n\nKey factors for BBB penetration:\n- Molecular weight: This molecule has a moderate molecular weight (~361 Da for ofloxacin)\n- Polar surface area: Contains carboxylic acid, multiple nitrogens, and fluorine - relatively high PSA\n- Charge: The carboxylic acid and tertiary amine suggest zwitterionic character at physiological pH\n- Lipophilicity: Moderate\n\nFluoroquinolones generally have LIMITED blood-brain barrier penetration, though some CNS penetration does occur (typically 10-40% of serum levels). However, when asking if it \"penetrates\" the BBB (rather than penetrates well), some penetration does occur.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 77,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule O=C1Oc2ccccc2C=C1 is coumarin (2H-chromen-2-one).\n\nKey properties to consider for BBB penetration:\n- Molecular weight: ~146 g/mol (low, favorable)\n- Lipophilicity: Moderate (favorable)\n- Polar surface area: Small (favorable)\n- Hydrogen bond donors: 0 (favorable)\n- Hydrogen bond acceptors: 2 (favorable)\n\nCoumarin is a small, relatively lipophilic molecule that meets Lipinski's rules and has properties consistent with BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 78,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a flavonoid-like structure with multiple aromatic rings and hydroxyl groups. Let me analyze key factors:\n\n1. **Molecular weight**: The structure suggests a MW around 330-350 g/mol (acceptable range for BBB penetration is typically <400-500)\n\n2. **Hydrogen bond donors/acceptors**: The molecule has multiple OH groups (at least 3) and several oxygen atoms, suggesting high polarity\n\n3. **Lipophilicity**: Multiple aromatic rings provide lipophilicity, but several OH groups increase hydrophilicity\n\n4. **Polar surface area**: Multiple oxygen atoms and OH groups likely result in a high PSA (>90 Ų typically reduces BBB penetration)\n\nGiven the multiple hydroxyl groups and oxygen atoms, this molecule is likely too polar for efficient blood-brain barrier penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 79,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Looking at this molecule, I need to consider its structure and properties related to blood-brain barrier (BBB) penetration.\n\nThe SMILES string represents atropine (or a stereoisomer), which is a tropane alkaloid. Let me analyze the BBB penetration factors:\n\n1. **Molecular weight**: Moderate (~289 g/mol) - favorable\n2. **Lipophilicity**: Contains aromatic ring and aliphatic portions - reasonable lipophilicity\n3. **Hydrogen bond donors/acceptors**: Limited number - favorable\n4. **Tertiary amine**: Present (the nitrogen in the tropane ring) - can exist in ionized form at physiological pH\n\nAtropine is known to penetrate the blood-brain barrier, which is why it can cause CNS side effects like confusion, hallucinations, and delirium at high doses.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 80,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its properties.\n\nThis appears to be a complex molecule with:\n- A beta-lactam ring (characteristic of cephalosporin antibiotics)\n- Multiple polar groups (carboxylic acids, hydroxyls)\n- A tetrazole ring\n- High molecular weight\n- Multiple hydrogen bond donors and acceptors\n\nKey BBB penetration criteria:\n- Molecular weight: This molecule appears to be >500 Da (likely ~600-700)\n- Polar surface area: Very high due to multiple polar groups\n- Hydrogen bond donors/acceptors: Excessive\n- The structure suggests this is a cephalosporin antibiotic\n\nCephalosporins are generally highly polar, charged at physiological pH (due to carboxylic acid groups), and do NOT effectively cross the blood-brain barrier under normal conditions.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 81,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure.\n\nThe SMILES notation \"c1(ccccc1)CC\" represents:\n- c1(ccccc1) = a benzene ring\n- CC = an ethyl group attached to the benzene\n\nThis is ethylbenzene (C6H5-CH2-CH3).\n\nEthylbenzene is a small, lipophilic molecule with:\n- Low molecular weight (~106 g/mol)\n- High lipophilicity\n- No hydrogen bond donors\n- Minimal polar surface area\n\nThese properties favor BBB penetration according to Lipinski's rules and BBB permeability criteria.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 82,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "I need to analyze whether this molecule can penetrate the blood-brain barrier (BBB).\n\nLet me examine the structure based on the SMILES string:\n- The molecule contains a benzodiazepine-like core (7-membered ring with nitrogen atoms)\n- It has a chlorinated benzene ring\n- Contains an oxadiazole ring\n- Has a tertiary butyl alcohol group\n- Molecular weight appears to be moderate to high\n- Contains multiple nitrogen atoms and polar groups\n\nKey factors for BBB penetration:\n1. Molecular weight: Appears to be around 350-400 g/mol (within acceptable range)\n2. Lipophilicity: Has aromatic rings but also polar groups\n3. Hydrogen bond donors/acceptors: Multiple N and O atoms present, with one OH group\n4. The structure resembles benzodiazepines, which are known to cross the BBB\n\nHowever, the molecule has:\n- A polar hydroxyl group\n- Multiple H-bond acceptors (N and O atoms)\n- An oxadiazole ring which adds polarity\n\nThe benzodiazepine-like core structure suggests this molecule is likely designed to be CNS-active, and such compounds typically penetrate the BBB.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 83,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its physicochemical properties.\n\nThe molecule is: CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1\n\nThis appears to be a chlorophenoxy ester compound with:\n- Molecular weight: ~272 g/mol (within favorable range <500)\n- Likely moderate lipophilicity due to chlorobenzene ring and ester groups\n- Few hydrogen bond donors (0)\n- Few hydrogen bond acceptors (3-4)\n\nThese properties generally fall within Lipinski's rules and CNS drug-like parameters. The molecule is relatively small, lipophilic enough, and has low polar surface area, which are favorable characteristics for BBB penetration.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 84,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule appears to be a complex heterocyclic structure containing:\n- A fused ring system with benzene rings\n- An epoxide group (O3)\n- A urea group (C(=O)N)\n- Multiple nitrogen atoms\n\nKey factors for BBB penetration:\n- Molecular weight: The structure suggests MW around 280-300 g/mol (moderate)\n- Polar groups: Contains urea (polar) and epoxide (moderately polar)\n- H-bond donors/acceptors: Multiple (unfavorable for BBB penetration)\n- Overall polarity: Appears relatively polar due to urea group\n\nThe presence of the urea group and multiple heteroatoms suggests this molecule is likely too polar for good BBB penetration.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 85,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure and properties.\n\nThe SMILES string represents a penicillin-type beta-lactam antibiotic (appears to be a form of penicillin G or similar). Let me consider key factors for BBB penetration:\n\n1. **Molecular weight**: This molecule has a relatively high molecular weight (>400 Da)\n2. **Polar surface area**: Contains multiple polar groups (carboxylic acids, amide, lactam)\n3. **Charge**: Contains two carboxylic acid groups that would be ionized at physiological pH\n4. **Hydrophilicity**: The presence of multiple polar groups and charged carboxylates makes it quite hydrophilic\n\nBeta-lactam antibiotics like penicillins generally have:\n- High polar surface area\n- Ionic character at physiological pH\n- Poor lipophilicity\n\nThese characteristics typically result in poor blood-brain barrier penetration. Penicillins are known to have limited BBB penetration under normal circumstances (though penetration can increase with meningeal inflammation).\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 86,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to analyze its structure. This SMILES string represents ampicillin, a penicillin-type antibiotic.\n\nAmpicillin has the following properties:\n- It is a polar, zwitterionic molecule at physiological pH\n- It contains multiple polar groups (carboxylic acids, amide, amine)\n- It has relatively high molecular weight\n- It is hydrophilic\n\nAmpicillin has poor blood-brain barrier penetration under normal conditions due to its hydrophilic nature and the presence of efflux transporters. It only achieves therapeutically relevant CNS concentrations when the meninges are inflamed.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 87,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "No",
+      "parsed": "no"
     },
     {
       "index": 88,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its structural properties.\n\nThe molecule appears to be a beta-blocker (likely carvedilol or similar compound) based on the structure containing:\n- An aryloxypropanolamine group\n- A tetralin (tetrahydronaphthalene) moiety\n- Multiple hydroxyl groups\n- A tert-butyl amine group\n\nKey BBB penetration factors:\n- Molecular weight: appears to be >400 Da (unfavorable)\n- Multiple hydroxyl groups (3-4 OH groups) - highly polar (unfavorable)\n- Hydrogen bond donors and acceptors: excessive (unfavorable)\n- The compound is relatively polar and hydrophilic due to multiple OH groups\n\nBeta-blockers with multiple polar groups like carvedilol generally have poor blood-brain barrier penetration due to high polarity and hydrogen bonding capacity.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 89,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its structure and properties.\n\nThe molecule NC(CO)(CO)CO represents a compound with:\n- An amine group (N)\n- Multiple hydroxyl groups (from CO groups, which are likely CH2OH or similar)\n- A highly polar, hydrophilic structure\n\nThis appears to be a polyol (sugar alcohol or amino sugar derivative) with multiple hydroxyl groups, making it very hydrophilic and polar.\n\nBlood-brain barrier penetration typically requires:\n- Low molecular weight\n- Lipophilicity (ability to cross lipid membranes)\n- Low hydrogen bond donors/acceptors\n- Low polar surface area\n\nThis molecule has multiple hydroxyl groups and an amine, making it highly polar with many hydrogen bond donors and acceptors. Such polar, hydrophilic molecules generally do NOT penetrate the blood-brain barrier well.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 90,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule appears to be a piperidine derivative with:\n- A phenethyl group (CCc2ccccc2)\n- An N-phenyl group\n- A propionyl group (CCC(=O))\n\nKey factors for BBB penetration:\n1. Molecular weight: Approximately 364 g/mol (within acceptable range <500)\n2. Lipophilicity: Multiple aromatic rings suggest good lipophilicity\n3. Hydrogen bond donors: 0\n4. Hydrogen bond acceptors: 2-3\n5. The molecule has a basic nitrogen (piperidine) that would be protonated at physiological pH\n\nThis structure resembles fentanyl and related compounds, which are known to cross the blood-brain barrier effectively due to their lipophilic nature and appropriate molecular properties.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 91,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier (BBB), I need to consider its physicochemical properties.\n\nLooking at the structure, this appears to be a tetracycline derivative (based on the characteristic four-ring system and functional groups). \n\nKey BBB penetration factors:\n1. **Molecular weight**: This is a large molecule (likely >450 Da)\n2. **Polar surface area**: Multiple hydroxyl groups, amines, and carbonyl groups suggest high PSA (>90 Ų)\n3. **Hydrogen bond donors/acceptors**: Many OH groups and carbonyls indicate numerous H-bond donors and acceptors\n4. **Lipophilicity**: The multiple polar groups suggest low lipophilicity despite some aromatic character\n\nTetracyclines are known to have poor BBB penetration due to:\n- High molecular weight\n- High polarity\n- Multiple ionizable groups\n- Low lipid solubility\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 92,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "Looking at this molecule, I need to analyze its structure and properties related to blood-brain barrier (BBB) penetration.\n\nThe SMILES represents a cephalosporin antibiotic (based on the beta-lactam core structure with the characteristic thiazolidine ring). Key features:\n\n1. **Molecular weight**: Relatively high (appears to be >400 Da)\n2. **Polar groups**: Multiple polar functional groups including:\n   - Carboxylic acid groups (highly ionizable)\n   - Amide bonds\n   - Ester group\n   - Sulfur atoms\n3. **Ionization**: Contains acidic carboxylic acid groups that will be ionized at physiological pH\n4. **H-bond donors/acceptors**: Multiple oxygen and nitrogen atoms\n\nCephalosporin antibiotics are generally known to have **poor BBB penetration** due to:\n- High polarity\n- Ionization at physiological pH\n- Presence of multiple hydrogen bonding groups\n- Not lipophilic enough\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 93,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule contains:\n- Two sulfonamide groups (S(=O)(=O))\n- A chlorine atom\n- A bicyclic structure with nitrogen heterocycles\n- Multiple polar groups (NH2, sulfonamides)\n\nKey factors against BBB penetration:\n1. Multiple polar sulfonamide groups increase polarity\n2. High number of hydrogen bond donors and acceptors\n3. Likely high polar surface area (PSA > 90 Å²)\n4. Presence of charged/ionizable groups at physiological pH\n\nSulfonamides are generally polar compounds with limited BBB penetration due to their high polarity and ionization.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 94,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if CCCC(C)C (2-methylpentane) penetrates the blood-brain barrier, I need to consider its properties:\n\n- It's a small, branched alkane (C6H14)\n- Molecular weight: ~86 g/mol (well below 400-500 Da threshold)\n- Highly lipophilic (non-polar hydrocarbon)\n- No hydrogen bond donors or acceptors\n- Very low polar surface area\n\nThese properties suggest excellent BBB penetration according to Lipinski's rules and BBB permeability criteria.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 95,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties.\n\nThe molecule is OC(=O)CCCCCCCC(O)=O, which is azelaic acid (nonanedioic acid) - a dicarboxylic acid with two carboxylic acid groups.\n\nKey factors for BBB penetration:\n- Molecular weight: ~188 g/mol (within acceptable range)\n- Lipophilicity: Very low due to two carboxylic acid groups\n- Polar surface area: High (~75 Ų) due to four oxygen atoms and two acidic groups\n- Charge: At physiological pH, both carboxylic acids will be ionized (negatively charged)\n\nThe high polarity and negative charges at physiological pH make this molecule highly hydrophilic and poorly lipophilic, which severely limits passive diffusion across the BBB.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 96,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its physicochemical properties.\n\nThe molecule is:\n- A carboxylic acid with a phenyl ring\n- Contains two N-bis(2-chloroethyl) groups (nitrogen mustard moiety)\n- This is chlorambucil, a chemotherapy agent\n\nKey properties to consider:\n1. Molecular weight: ~304 g/mol (within acceptable range <500)\n2. Contains a carboxylic acid group (ionizable at physiological pH, which reduces BBB penetration)\n3. The nitrogen mustard groups add some lipophilicity\n4. However, the ionized carboxylate at pH 7.4 significantly reduces membrane permeability\n\nChlorambucil has limited BBB penetration due to its ionizable carboxylic acid group, though it's not completely impermeable.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 97,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule can penetrate the blood-brain barrier, I need to consider its properties based on the SMILES structure.\n\nThis molecule appears to be a large cardiac glycoside with multiple sugar moieties (indicated by the repeated sugar ring patterns with O[C@H] groups) attached to a steroid core (the fused ring system) with a butenolide lactone ring.\n\nKey factors against BBB penetration:\n- High molecular weight (appears to be >500 Da with multiple sugar units)\n- Multiple polar hydroxyl groups (many -OH groups indicated)\n- High number of hydrogen bond donors and acceptors\n- Poor lipophilicity due to the sugar moieties\n- Likely violates Lipinski's Rule of 5\n\nMolecules like this (cardiac glycosides such as digitoxin or digoxin) are known to have very poor blood-brain barrier penetration due to these properties.\n\n**no**",
+      "parsed": "no"
     },
     {
       "index": 98,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThis SMILES string represents a steroid structure (appears to be a form of testosterone or similar steroid hormone based on the ring system and functional groups).\n\nKey factors for BBB penetration:\n- Molecular weight: This steroid has a relatively low MW (~304 g/mol)\n- Lipophilicity: Steroids are generally lipophilic\n- Polar surface area: Limited polar groups (one ketone, one hydroxyl)\n- Hydrogen bond donors/acceptors: Minimal\n\nSteroid hormones like testosterone are known to cross the blood-brain barrier due to their lipophilic nature and relatively small size.\n\n**yes**",
+      "parsed": "yes"
     },
     {
       "index": 99,
-      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted",
-      "parsed": null
+      "rawResponse": "To determine if this molecule penetrates the blood-brain barrier, I need to consider its properties.\n\nThe molecule is: CC(C)(Oc1ccc(Cl)cc1)C(O)=O\n\nThis is clofibric acid (a metabolite of clofibrate), which contains:\n- A carboxylic acid group (C(O)=O)\n- A chlorophenoxy group\n- Branched alkyl groups\n\nKey factors:\n1. The carboxylic acid group is ionizable at physiological pH, making it negatively charged\n2. Charged molecules generally do NOT cross the blood-brain barrier well\n3. The molecule is relatively small but polar due to the acid group\n\nClofibric acid is a polar, ionized molecule at physiological pH and does not significantly penetrate the blood-brain barrier.\n\n**no**",
+      "parsed": "no"
     }
   ]
 }
