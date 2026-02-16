@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "results": [
+    {
+      "index": 0,
+      "rawResponse": "3",
+      "parsed": 3
+    },
+    {
+      "index": 1,
+      "rawResponse": "3",
+      "parsed": 3
+    },
+    {
+      "index": 2,
+      "rawResponse": "3",
+      "parsed": 3
+    },
+    {
+      "index": 3,
+      "rawResponse": "3",
+      "parsed": 3
+    },
+    {
+      "index": 4,
+      "rawResponse": "3",
+      "parsed": 3
+    }
+  ],
+  "scores": {
+    "accuracy": 1,
+    "total": 5,
+    "correct": 5,
+    "parseFailures": 0
+  }
+}

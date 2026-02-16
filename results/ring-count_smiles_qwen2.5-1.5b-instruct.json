@@ -1,0 +1,505 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "results": [
+    {
+      "index": 0,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 1,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 2,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 3,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 4,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 5,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 6,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 7,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 8,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 9,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 10,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 11,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 12,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 13,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 14,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 15,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 16,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 17,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 18,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 19,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 20,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 21,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 22,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 23,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 24,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 25,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 26,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 27,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 28,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 29,
+      "rawResponse": "60",
+      "parsed": null
+    },
+    {
+      "index": 30,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 31,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 32,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 33,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 34,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 35,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 36,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 37,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 38,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 39,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 40,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 41,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 42,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 43,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 44,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 45,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 46,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 47,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 48,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 49,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 50,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 51,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 52,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 53,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 54,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 55,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 56,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 57,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 58,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 59,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 60,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 61,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 62,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 63,
+      "rawResponse": "4",
+      "parsed": null
+    },
+    {
+      "index": 64,
+      "rawResponse": "4",
+      "parsed": null
+    },
+    {
+      "index": 65,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 66,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 67,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 68,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 69,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 70,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 71,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 72,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 73,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 74,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 75,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 76,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 77,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 78,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 79,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 80,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 81,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 82,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 83,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 84,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 85,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 86,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 87,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 88,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 89,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 90,
+      "rawResponse": "11",
+      "parsed": null
+    },
+    {
+      "index": 91,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 92,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 93,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 94,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 95,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 96,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 97,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 98,
+      "rawResponse": "6",
+      "parsed": null
+    },
+    {
+      "index": 99,
+      "rawResponse": "6",
+      "parsed": null
+    }
+  ]
+}

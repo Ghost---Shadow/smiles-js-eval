@@ -1,16 +1,20 @@
 import "./load-env.js";
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { callClaude, callClaudeTwoTurn } from "./eval/runner.js";
-import { parseInteger, parseYesNo, parseSmiles } from "./eval/parse-response.js";
+import { parseInteger, parseYesNo, parseSmiles, parseFunctionalGroups, parseHBond } from "./eval/parse-response.js";
 import { ringCountPrompt } from "./prompts/ring-count.js";
 import { bbbpPrompt } from "./prompts/bbbp.js";
 import { smilesRepairPrompt, codeRepairPrompt } from "./prompts/smiles-repair.js";
 import { relabelPrompt } from "./prompts/relabel.js";
+import { funcGroupPrompt } from "./prompts/func-group.js";
+import { aromaticRingsPrompt } from "./prompts/aromatic-rings.js";
+import { hbondPrompt } from "./prompts/hbond.js";
 import { exactMatchAccuracy } from "./scoring/exact-match.js";
 import { binaryMetrics } from "./scoring/auc-roc.js";
 import { smilesRepairMetrics } from "./scoring/validity.js";
+import { f1Score } from "./scoring/f1.js";
 
-const TASKS = ["ring-count", "bbbp", "smiles-repair"];
+const TASKS = ["ring-count", "bbbp", "smiles-repair", "func-group", "aromatic-rings", "hbond"];
 const CONDITIONS = ["smiles", "code", "code+relabel"];
 
 function loadDataset(task) {
@@ -33,13 +37,28 @@ function getPrompt(task, condition, row) {
       return codeRepairPrompt(row.corrupted_code);
     }
   }
+  if (task === "func-group") {
+    const molecule = condition === "smiles" ? row.smiles : row.code;
+    return funcGroupPrompt(molecule);
+  }
+  if (task === "aromatic-rings") {
+    const molecule = condition === "smiles" ? row.smiles : row.code;
+    return aromaticRingsPrompt(molecule);
+  }
+  if (task === "hbond") {
+    const molecule = condition === "smiles" ? row.smiles : row.code;
+    return hbondPrompt(molecule);
+  }
   throw new Error(`Unknown task: ${task}`);
 }
 
 function getParser(task) {
   if (task === "ring-count") return parseInteger;
+  if (task === "aromatic-rings") return parseInteger;
   if (task === "bbbp") return parseYesNo;
   if (task === "smiles-repair") return parseSmiles;
+  if (task === "func-group") return parseFunctionalGroups;
+  if (task === "hbond") return parseHBond;
   throw new Error(`Unknown task: ${task}`);
 }
 
@@ -123,6 +142,50 @@ async function scoreResults(task, condition, dataset, results) {
     }
     return {
       ...(await smilesRepairMetrics(validPreds, validOriginals)),
+      parseFailures,
+    };
+  }
+
+  if (task === "func-group") {
+    const scored = results.map((r, i) => ({ parsed: r.parsed, groups: dataset[i].groups }));
+    return f1Score(scored);
+  }
+
+  if (task === "aromatic-rings") {
+    const groundTruths = dataset.map((r) => r.aromaticRingCount);
+    const validPreds = [];
+    const validTruths = [];
+    for (let i = 0; i < predictions.length; i++) {
+      if (predictions[i] !== null) {
+        validPreds.push(predictions[i]);
+        validTruths.push(groundTruths[i]);
+      }
+    }
+    return { ...exactMatchAccuracy(validPreds, validTruths), parseFailures };
+  }
+
+  if (task === "hbond") {
+    let correct = 0;
+    let donorCorrect = 0;
+    let acceptorCorrect = 0;
+    let scored = 0;
+    for (let i = 0; i < predictions.length; i++) {
+      if (predictions[i] === null) continue;
+      scored++;
+      const { hbd, hba } = predictions[i];
+      if (hbd === dataset[i].hbd) donorCorrect++;
+      if (hba === dataset[i].hba) acceptorCorrect++;
+      if (hbd === dataset[i].hbd && hba === dataset[i].hba) correct++;
+    }
+    return {
+      accuracy: scored > 0 ? correct / scored : 0,
+      donorAccuracy: scored > 0 ? donorCorrect / scored : 0,
+      acceptorAccuracy: scored > 0 ? acceptorCorrect / scored : 0,
+      correct,
+      donorCorrect,
+      acceptorCorrect,
+      total: results.length,
+      scored,
       parseFailures,
     };
   }

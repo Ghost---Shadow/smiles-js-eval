@@ -56,3 +56,78 @@ export function parseSmiles(response) {
   if (cleaned.length < 200 && !cleaned.includes(" ")) return cleaned;
   return null;
 }
+
+/** Known functional group names for matching */
+const FG_CANONICAL = {
+  hydroxyl: "hydroxyl",
+  oh: "hydroxyl",
+  carboxyl: "carboxyl",
+  carboxylic: "carboxyl",
+  "carboxylic acid": "carboxyl",
+  cooh: "carboxyl",
+  amine: "amine",
+  amino: "amine",
+  nh2: "amine",
+  amide: "amide",
+  ester: "ester",
+  ether: "ether",
+  nitro: "nitro",
+  no2: "nitro",
+  halide: "halide",
+  halogen: "halide",
+  fluoride: "halide",
+  chloride: "halide",
+  bromide: "halide",
+  iodide: "halide",
+  fluoro: "halide",
+  chloro: "halide",
+  bromo: "halide",
+  iodo: "halide",
+};
+
+/** Extract functional group names from a response. Returns sorted array of canonical names. */
+export function parseFunctionalGroups(response) {
+  const cleaned = stripFences(response).toLowerCase();
+  // Check last line first (likely the answer line)
+  const lines = cleaned.split("\n").map((l) => l.trim()).filter(Boolean);
+  const lastLine = lines[lines.length - 1] || "";
+
+  // Try to parse the last line as comma-separated groups
+  const found = new Set();
+  const candidates = lastLine.includes(",") ? lastLine : cleaned;
+  for (const [alias, canonical] of Object.entries(FG_CANONICAL)) {
+    if (candidates.includes(alias)) {
+      found.add(canonical);
+    }
+  }
+  if (found.size === 0) return null;
+  return [...found].sort();
+}
+
+/** Extract donors=X, acceptors=Y from a response. Returns { hbd, hba } or null. */
+export function parseHBond(response) {
+  const cleaned = stripFences(response).toLowerCase();
+
+  // Strategy 1: donors=X, acceptors=Y (or similar patterns)
+  const donorMatch = cleaned.match(/donors?\s*[=:]\s*(\d+)/);
+  const acceptorMatch = cleaned.match(/acceptors?\s*[=:]\s*(\d+)/);
+  if (donorMatch && acceptorMatch) {
+    return { hbd: parseInt(donorMatch[1], 10), hba: parseInt(acceptorMatch[1], 10) };
+  }
+
+  // Strategy 2: "X donors" and "Y acceptors"
+  const donorMatch2 = cleaned.match(/(\d+)\s*(?:hydrogen\s*bond\s*)?donors?/);
+  const acceptorMatch2 = cleaned.match(/(\d+)\s*(?:hydrogen\s*bond\s*)?acceptors?/);
+  if (donorMatch2 && acceptorMatch2) {
+    return { hbd: parseInt(donorMatch2[1], 10), hba: parseInt(acceptorMatch2[1], 10) };
+  }
+
+  // Strategy 3: hbd=X, hba=Y
+  const hbdMatch = cleaned.match(/hbd\s*[=:]\s*(\d+)/);
+  const hbaMatch = cleaned.match(/hba\s*[=:]\s*(\d+)/);
+  if (hbdMatch && hbaMatch) {
+    return { hbd: parseInt(hbdMatch[1], 10), hba: parseInt(hbaMatch[1], 10) };
+  }
+
+  return null;
+}
