@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
-    "smiles-js": "file:../smiles-js"
+    "smiles-js": "^2.2.0"
   },
   "devDependencies": {
     "@rdkit/rdkit": "^2025.3.4-1.0.0"
