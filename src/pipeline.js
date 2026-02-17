@@ -14,7 +14,7 @@ import { binaryMetrics } from "./scoring/auc-roc.js";
 import { smilesRepairMetrics } from "./scoring/validity.js";
 import { f1Score } from "./scoring/f1.js";
 
-const TASKS = ["ring-count", "bbbp", "smiles-repair", "func-group", "aromatic-rings", "hbond"];
+const TASKS = ["bbbp", "func-group", "aromatic-rings", "hbond"];
 const CONDITIONS = ["smiles", "code", "code+relabel"];
 
 function loadDataset(task) {

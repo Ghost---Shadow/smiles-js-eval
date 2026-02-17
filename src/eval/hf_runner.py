@@ -21,14 +21,11 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 DEFAULT_MODEL = "Qwen/Qwen2.5-7B-Instruct"
 MAX_TOKENS = 1024
 
-TASKS = ["ring-count", "bbbp", "smiles-repair", "func-group", "aromatic-rings", "hbond"]
+TASKS = ["bbbp", "func-group", "aromatic-rings", "hbond"]
 CONDITIONS = ["smiles", "code", "code+relabel"]
 
 PROMPTS = {
-    "ring-count": "How many rings are in the following molecule?\n\n{molecule}\n\nRespond with a single integer.\n\nAnswer:",
     "bbbp": 'Does the following molecule penetrate the blood-brain barrier?\n\n{molecule}\n\nRespond with "yes" or "no".\n\nAnswer:',
-    "smiles-repair": "The following SMILES string is invalid. Fix it to produce a valid molecule that is as close as possible to the intended structure.\n\n{corrupted}\n\nRespond with the corrected SMILES string.\n\nAnswer:",
-    "code-repair": "The following smiles-js code has an error that makes it produce an invalid molecule. Fix the code to produce a valid molecule as close as possible to the intended structure.\n\n{corrupted}\n\nRespond with the corrected SMILES string (not code).\n\nAnswer:",
     "relabel": 'The following code constructs a molecule using the smiles-js library. The variable names are auto-generated and not meaningful. Rename all variables to reflect what each part of the molecule is (e.g., phenylRing, methylBranch, acetylGroup, amideBond). Do not change any logic, only variable names.\n\n{code}\n\nAnswer:',
     "func-group": 'Which of the following functional groups are present in this molecule?\n\n{molecule}\n\nPossible groups: hydroxyl (-OH), carboxyl (-COOH), amine (-NH2), amide (-C(=O)NH-), ester (-C(=O)O-C), ether (C-O-C), nitro (-NO2), halide (-F/-Cl/-Br/-I)\n\nRespond with ONLY a comma-separated list of the group names that are present. For example: hydroxyl, amine, halide\n\nAnswer:',
     "aromatic-rings": "How many aromatic rings are in the following molecule?\n\n{molecule}\n\nRespond with a single integer.\n\nAnswer:",
@@ -60,24 +57,8 @@ def load_dataset(task):
 
 
 def get_prompt(task, condition, row):
-    if task == "ring-count":
-        mol = row["smiles"] if condition == "smiles" else row["code"]
-        return PROMPTS["ring-count"].format(molecule=mol)
-    elif task == "bbbp":
-        mol = row["smiles"] if condition == "smiles" else row["code"]
-        return PROMPTS["bbbp"].format(molecule=mol)
-    elif task == "smiles-repair":
-        if condition == "smiles":
-            return PROMPTS["smiles-repair"].format(corrupted=row["corrupted_smiles"])
-        else:
-            corrupted = row.get("corrupted_code") or row["corrupted_smiles"]
-            if row.get("corrupted_code"):
-                return PROMPTS["code-repair"].format(corrupted=corrupted)
-            return PROMPTS["smiles-repair"].format(corrupted=corrupted)
-    elif task in ("func-group", "aromatic-rings", "hbond"):
-        mol = row["smiles"] if condition == "smiles" else row["code"]
-        return PROMPTS[task].format(molecule=mol)
-    raise ValueError(f"Unknown task: {task}")
+    mol = row["smiles"] if condition == "smiles" else row["code"]
+    return PROMPTS[task].format(molecule=mol)
 
 
 def generate(model, tokenizer, prompt):

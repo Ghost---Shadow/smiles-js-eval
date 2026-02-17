@@ -1,0 +1,515 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "results": [
+    {
+      "index": 0,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 1,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 2,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 3,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 4,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 5,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 6,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 7,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 8,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 9,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 10,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 11,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 12,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 13,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 14,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 15,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 16,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 17,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 18,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 19,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 20,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 21,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 22,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 23,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 24,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 25,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 26,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 27,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 28,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 29,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 30,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 31,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 32,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 33,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 34,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 35,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 36,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 37,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 38,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 39,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 40,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 41,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 42,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 43,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 44,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 45,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 46,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 47,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 48,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 49,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 50,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 51,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 52,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 53,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 54,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 55,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 56,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 57,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 58,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 59,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 60,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 61,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 62,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 63,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 64,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 65,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 66,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 67,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 68,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 69,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 70,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 71,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 72,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 73,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 74,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 75,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 76,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 77,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 78,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 79,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 80,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 81,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 82,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 83,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 84,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 85,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 86,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 87,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 88,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 89,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 90,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 91,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 92,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 93,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 94,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 95,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 96,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 97,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 98,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 99,
+      "rawResponse": "No.",
+      "parsed": "no"
+    }
+  ],
+  "scores": {
+    "accuracy": 0.5,
+    "balancedAccuracy": 0.5,
+    "tp": 0,
+    "fp": 0,
+    "tn": 50,
+    "fn": 50,
+    "total": 100,
+    "parseFailures": 0
+  }
+}

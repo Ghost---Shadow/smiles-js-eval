@@ -1,0 +1,515 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "results": [
+    {
+      "index": 0,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 1,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 2,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 3,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 4,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 5,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 6,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 7,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 8,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 9,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 10,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 11,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 12,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 13,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 14,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 15,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 16,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 17,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 18,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 19,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 20,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 21,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 22,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 23,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 24,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 25,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 26,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 27,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 28,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 29,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 30,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 31,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 32,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 33,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 34,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 35,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 36,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 37,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 38,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 39,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 40,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 41,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 42,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 43,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 44,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 45,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 46,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 47,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 48,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 49,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 50,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 51,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 52,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 53,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 54,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 55,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 56,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 57,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 58,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 59,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 60,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 61,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 62,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 63,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 64,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 65,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 66,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 67,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 68,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 69,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 70,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 71,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 72,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 73,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 74,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 75,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 76,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 77,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 78,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 79,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 80,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 81,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 82,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 83,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 84,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 85,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 86,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 87,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 88,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 89,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 90,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 91,
+      "rawResponse": "yes",
+      "parsed": "yes"
+    },
+    {
+      "index": 92,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 93,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 94,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 95,
+      "rawResponse": "No.",
+      "parsed": "no"
+    },
+    {
+      "index": 96,
+      "rawResponse": "no",
+      "parsed": "no"
+    },
+    {
+      "index": 97,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 98,
+      "rawResponse": "Yes.",
+      "parsed": "yes"
+    },
+    {
+      "index": 99,
+      "rawResponse": "No.",
+      "parsed": "no"
+    }
+  ],
+  "scores": {
+    "accuracy": 0.48,
+    "balancedAccuracy": 0.48,
+    "tp": 18,
+    "fp": 20,
+    "tn": 30,
+    "fn": 32,
+    "total": 100,
+    "parseFailures": 0
+  }
+}
